@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "InkleFlix",
-    "slug": "InkleFlix",
+    "name": "popcorn",
+    "slug": "popcorn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": ["@react-native-google-signin/google-signin"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,13 +19,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ayusharma.popcorn"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f7aaa957-408b-41c7-99fa-ab05b0a6a789"
+      }
     }
   }
 }

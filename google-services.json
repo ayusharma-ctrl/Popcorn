@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141106545956",
+    "project_id": "popcorn-inkle-a84fe",
+    "storage_bucket": "popcorn-inkle-a84fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141106545956:android:405d960a441a2ef1c75fb1",
+        "android_client_info": {
+          "package_name": "com.ayusharma.popcorn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141106545956-7feglabnm14ift31tgmg09llalunk2ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayusharma.popcorn",
+            "certificate_hash": "e11aa28ef9dc929ce78fa5d690e83e7c2ec78b68"
+          }
+        },
+        {
+          "client_id": "141106545956-tc7d46p4r8gi5oqma21om751avvms6c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayusharma.popcorn",
+            "certificate_hash": "8f33229a36c62e57abd08c6deb2eb478fd11d301"
+          }
+        },
+        {
+          "client_id": "141106545956-8ob7cgjtr032bqn8nsta9qh7ifi1pe0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncAy-_YRongd7xvKqGMRg2k21e-KW-BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141106545956-8ob7cgjtr032bqn8nsta9qh7ifi1pe0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
